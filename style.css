@@ -31,6 +31,7 @@ text-decoration: none;
 font-family: sans-serif;
 height: 200px;
 background-color: #333;
+background-image: url(patterngeometric.jpg);
 }
 
 .logo {
@@ -40,10 +41,10 @@ background-color: #333;
 
 .main-header ul {
   display: inline-block;
-
   margin: 0;
   padding: 0;
   background-color: #333;
+  opacity: 1;
 }
 
 .main-header li {
@@ -53,8 +54,8 @@ background-color: #333;
 
 li a {
   display: block;
-  width: 170px;
-
+  width: 150px;
+height:200px;
   color: white;
   text-align: center;
 padding: 90px 10px;
@@ -66,16 +67,18 @@ li a:hover {
 
 .main-contener {
   background-color: 	#212121;
+  background-image: url(patterngeometric.jpg);
+  background-attachment: fixed;
   color: white;
   font-family: sans-serif;
   height: auto;
   padding: 10px 20px;
 }
 
-#presentation, #competences, #experiences, #futur, #form, #hobbies {
+#presentation, #competences, #experiences, #futur, #form, #hobbies, #formations {
   background-color: #333;
-  padding: 17px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .main-contener li {
